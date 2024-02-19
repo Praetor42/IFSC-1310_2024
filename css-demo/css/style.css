@@ -1,0 +1,27 @@
+/* ---- CSS DEMO ----*/
+
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /* ---- Global Styles ----*/
+
+  body{
+    background-color: white;
+}
+
+body{
+font-family: "Roboto Mono", monospace;
+}
+
+header.primary{
+background: red;
+}
