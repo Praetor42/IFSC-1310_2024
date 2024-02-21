@@ -20,8 +20,61 @@ html {
 
 body{
 font-family: "Roboto Mono", monospace;
+margin:0;
 }
 
 header.primary{
-background: red;
+background: orangered;
+color:aliceblue;
+text-align:center;
+text-shadow:2px 2px #000;
+padding:40px;
+}
+
+header.primary h1{
+  font-size: 2.4rem;
+  
+  margin: 20px 0 0;
+}
+
+header.primary h1 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+header.primary h2{
+  font-size: 1.5rem;
+  margin:0;
+}
+
+header.primary nav{
+  max-width: 900px;
+  margin: auto;
+
+}
+
+header.primary ul{
+  padding:10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around ;
+}
+
+header.primary ul li{
+  list-style-type: none;
+}
+
+header.primary nav a{
+  color: #fff;
+  text-decoration: none;
+  background-color: black;
+  background-color: rgba(0,0,0, .4);
+  padding:5px 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  transition: 4s;
+}
+
+header.primary nav a:hover{
+  background-color: rgba(231, 216, 216, 0.8);
 }
