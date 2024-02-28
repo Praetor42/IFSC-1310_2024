@@ -28,6 +28,33 @@ html {
   margin:40px auto;
 }
 
+.img-right{
+  float:right;
+  margin: 10px 0 10px 20 ppx;
+  border:1px solid black;
+  padding:5px;
+  border-radius: 50px;
+  background-color: #172635;
+}
+
+.img-left{
+float:left;
+margin: 10px 20px 10px 0;
+  border:1px solid black;
+  padding:5px;
+  border-radius: 50px;
+  background-color: #172635;
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
+  border:1px solid black;
+  padding:5px;
+  border-radius: 50px;
+  background-color: #172635;
+}
+
 
   /* ---- Global Styles ----*/
 
@@ -115,6 +142,9 @@ padding:5px;
 flex-direction:row;
 justify-content: space-around;
 gap:2vw;
+border-bottom:1px dotted orangered;
+padding: 2rem 0;
+border-top: 1px dotted orangered;
 }
 
 #blog .post{
@@ -154,10 +184,76 @@ gap:2vw;
 
 }
 
+#practice h2{
+  color:orangered;
+  border-bottom:1px dotted orangered ;
+}
+
+table{
+border:1px solid black;
+width: 100%;
+margin: 20px 0;
+border-collapse: collapse;
+}
+caption{
+  font-weight: bold;
+  margin:10px;
+}
+th{
+background-color: #172635;
+color: #fff;
+padding:7.5px;
+}
+tr:nth-child(even){
+background-color: rgba(0,0,0, .1);
+}
+
+tr:hover{
+  background-color: rgba(0,0,0, .4);
+}
+
+td{
+border:1px solid black;
+padding:5px;
+}
 
 
 
 
+
+aside[role="complementary"]{
+background-color: #172635;
+color:#fff;
+padding:1.9rem;
+
+}
+
+aside .container{
+  display:flex;
+  flex-direction: row;
+  gap:40px;
+  justify-content: space-around;
+}
+
+aside .container a:last-of-type{
+  display:block;
+  color: orangered;
+  display:flex;
+  justify-content: right;
+
+}
+
+aside .widget footer{
+  display:none;
+}
+
+#colophon{
+  background-color: orangered;
+  text-align: center;
+  padding:10px;
+  color:#fff;
+  font-size:1.1rem;
+}
 
 
 
