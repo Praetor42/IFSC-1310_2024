@@ -9,8 +9,11 @@ body{
 ul{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 ul li{
     background-color: aqua;
 }
+
